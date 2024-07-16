@@ -1,6 +1,5 @@
 
 class UserController {
-    constructor() {}
     async createUser(req, res) {
         const {name, surname} = req.body
         console.log(name, surname)
@@ -25,4 +24,3 @@ class UserController {
 }
 
 module.exports = new UserController();
-// module.exports = new UserController()
